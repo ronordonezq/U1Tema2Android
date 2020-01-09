@@ -2,7 +2,9 @@ package com.example.u1tema2android;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -27,6 +29,8 @@ public class Intenciones  extends AppCompatActivity {
   public void Llamar(View view) {
     Intent intent = new Intent(Intent.ACTION_CALL,
             Uri.parse("tel:952000243"));
+    if (ContextCompat.checkSelfPermission(this,
+            Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED)
     startActivity(intent);
   }
   public void maps(View view) {
