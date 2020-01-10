@@ -1,4 +1,4 @@
-package com.example.u1tema2android;
+package com.example.u1tema2android.Multimedia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.u1tema2android.R;
 
 public class Multimedia  extends AppCompatActivity {
   MediaPlayer mp;

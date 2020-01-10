@@ -1,4 +1,4 @@
-package com.example.u1tema2android;
+package com.example.u1tema2android.mirecyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.example.u1tema2android.R;
 
 import java.util.Vector;
 

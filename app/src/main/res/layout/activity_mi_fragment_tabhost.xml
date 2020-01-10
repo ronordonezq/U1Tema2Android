@@ -4,12 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Multimedia.Multimedia2">
-    <VideoView
-        android:id="@+id/videoView1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".FragmentTabhost.MiFragmentTabhost">
+
 </androidx.constraintlayout.widget.ConstraintLayout>
