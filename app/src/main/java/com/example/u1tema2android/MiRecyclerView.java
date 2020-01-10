@@ -5,10 +5,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import java.util.Vector;
 
-public class MiRecyclerView extends AppCompatActivity {
+public class MiRecyclerView extends AppCompatActivity implements InterfaceToast {
   private RecyclerView recyclerView;
   private RecyclerView.LayoutManager layoutManager;
   private MiAdaptador adaptador;
@@ -44,6 +45,12 @@ public class MiRecyclerView extends AppCompatActivity {
     recyclerView.setAdapter(adaptador);
     layoutManager = new LinearLayoutManager(this);
     recyclerView.setLayoutManager(layoutManager);
+  }
+
+  @Override
+  public void mensaje(String mensaje) {
+    Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show();
+
   }
 }
 

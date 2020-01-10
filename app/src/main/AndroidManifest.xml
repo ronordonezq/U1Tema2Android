@@ -19,7 +19,7 @@
         <activity android:name=".Permisos" />
         <activity android:name=".Multimedia2" />
         <activity android:name=".Multimedia" />
-        <activity android:name=".Intenciones" />
+        <activity android:name=".Intenciones" android:screenOrientation="landscape"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
