@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Permisos"></activity>
+        <activity android:name=".MiRecyclerView"></activity>
+        <activity android:name=".Permisos" />
         <activity android:name=".Multimedia2" />
         <activity android:name=".Multimedia" />
         <activity android:name=".Intenciones" />
